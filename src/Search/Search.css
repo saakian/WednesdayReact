@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.Search_Container {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.233);
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 60vw;
+}
+
+.Search_Level_One {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 5px;
+  background-color: rgba(255, 255, 255, 0.205);
+  border-radius: 4px;
+  width: 60vw;
+  /* border: 3px solid rgb(153, 164, 172); */
+}
+
+.Level_One {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  margin-bottom: 5px;
+  margin: 5px 10px;
+  padding: 3px 9px;
+  background-color: rgb(71, 75, 77);
+  border-radius: 4px;
+  border: 1px solid rgb(218, 218, 26);
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+}
+
+.Master {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  background-color: rgba(255, 255, 255, 0);
+  /* width: 60vw; */
+}
+.bike {
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  padding-right: 7px;
+  margin: 0;
+}
+.input {
+  border-radius: 19px;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid transparent;
+  /* border-style: none; */
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  z-index: 100;
+}
+.input:focus {
+  background-color: rgba(255, 255, 255, 0.356);
+  border-color: yellow;
+  border: 2px solid rgb(228, 228, 29);
+  padding: 10px;
+  outline: yellow;
+  transition: border 1s ease;
+}
+::placeholder {
+  color: white;
+  margin-left: 80px;
+}
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.search_Icon {
+  margin-left: -520px;
+  transform: scale(1.8);
+  color: green;
+  z-index: 2;
+}
+
+/*  */

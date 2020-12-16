@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.Epiloges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.Epilogi_Anazitisi {
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(20, 158, 20, 0);
+  width: 200px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
